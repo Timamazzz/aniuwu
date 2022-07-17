@@ -391,10 +391,13 @@ ul {
 
 .header {
   width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
   display: flex;
   justify-content: center;
   padding-top: 30px;
   position: fixed;
+    z-index: 1000;
 }
 
 .logo {
@@ -435,7 +438,7 @@ ul {
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  max-width: 1300px;
+  max-width: 1000px;
   background-color: #333;
   width: 100%;
   margin: 0 auto;
