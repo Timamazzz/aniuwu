@@ -9,15 +9,15 @@ use Illuminate\View\Component;
 
 class animeCard extends Component
 {
-    public string $link, $img, $animeName;
+    public string $img, $animeName;
+
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($link, $img, $animeName)
+    public function __construct($img, $animeName)
     {
-        $this->link = $link;
         $this->img = $img;
         $this->animeName = $animeName;
     }

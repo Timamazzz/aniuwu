@@ -7,9 +7,11 @@
 
     <section class="section">
         <div class="container">
+            <div class="card__menu">
             @foreach($animes as $anime)
-                <x-home.anime-card link="#" img="{{asset($anime->image)}}" animeName="{{$anime->name}}"> </x-home.anime-card>
+                <x-home.anime-card img="{{asset($anime->image)}}" animeName="{{$anime->name}}"> </x-home.anime-card>
             @endforeach
+            </div>
         </div>
     </section>
 @endsection

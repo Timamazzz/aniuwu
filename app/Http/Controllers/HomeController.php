@@ -17,6 +17,11 @@ class HomeController extends BaseController
 
     public function index(): Factory|View|Application
     {
-        return view('home\index', ['animes' => Anime::all()]);
+        return view('home.index', ['animes' => Anime::all()]);
+    }
+
+    public function show(): Factory|View|Application
+    {
+        return view('home.show');
     }
 }
