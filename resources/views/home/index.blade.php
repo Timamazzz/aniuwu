@@ -26,17 +26,15 @@
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
 </head>
 <body>
-<header class="header">
-    <div class="container flex">
-        <img class="logo" src="{{asset('img/1619261518_21-phonoteka_org-p-anime-kartinki-bez-fona-29.png')}}" alt="">
-        <nav class="nav">
-            <a href="#">Вход</a>
-        </nav>
-    </div>
-</header>
+<x-header />
 
 <img class="chica" src="{{asset('img/b838ed9eead6ce4b448bc020883ec881.gif')}}" alt="">
 
+<section class="section">
+    <div class="container">
+
+    </div>
+</section>
 <script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
