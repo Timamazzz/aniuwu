@@ -20,9 +20,4 @@ class HomeController extends BaseController
         return view('home.index', ['animes' => Anime::all()]);
     }
 
-    public function show($id): Factory|View|Application
-    {
-        $anime = Anime::Find($id);
-        return view('home.show', ['anime' => $anime]);
-    }
 }
