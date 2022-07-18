@@ -9,7 +9,7 @@
         <div class="container">
             <div class="card__menu">
             @foreach($animes as $anime)
-                <x-home.anime-card img="{{asset($anime->image)}}" animeName="{{$anime->name}}"> </x-home.anime-card>
+                <x-home.anime-card id="{{$anime->id}}" image="{{asset($anime->image)}}" name="{{$anime->name}}"> </x-home.anime-card>
             @endforeach
             </div>
         </div>

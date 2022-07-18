@@ -1,6 +1,6 @@
-    <a href="#"  class="card__item">
-        <img src="{{asset($img)}}" class="img" alt="">
-        <div class="block_text">
-            <p class="name">{{$animeName}}</p>
-        </div>
-    </a>
+<a href="{{route('show', $id)}}"  class="card__item">
+    <img src="{{asset($image)}}" class="img" alt="">
+    <div class="block_text">
+        <p class="name">{{$name}}</p>
+    </div>
+</a>
