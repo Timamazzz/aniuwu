@@ -1,5 +1,9 @@
 @extends('layouts.home')
 
+@section('head')
+    <title>{{$anime->eng_name}}</title>
+@endsection
+
 @section('content')
     <x-header ></x-header>
 

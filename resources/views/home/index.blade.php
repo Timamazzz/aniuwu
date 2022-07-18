@@ -1,5 +1,9 @@
 @extends('layouts.home')
 
+@section('head')
+<title>Aniuwu</title>
+@endsection
+
 @section('content')
     <x-header ></x-header>
 
