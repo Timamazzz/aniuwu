@@ -2,5 +2,6 @@
 
 return [
     'login' => 'Login',
-    'send' => 'Send'
+    'send' => 'Send',
+    'user' => 'User'
 ];
