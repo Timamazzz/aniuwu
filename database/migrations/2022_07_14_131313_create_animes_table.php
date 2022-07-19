@@ -23,6 +23,7 @@ return new class extends Migration
             $table->unsignedInteger('likes')->default(0);
             $table->unsignedInteger('dislikes')->default(0);
             $table->unsignedInteger('year')->nullable();
+            $table->foreignId('genre_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }

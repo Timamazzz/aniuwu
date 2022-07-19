@@ -391,13 +391,11 @@ ul {
 
 .header {
   width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
   display: flex;
   justify-content: center;
   padding-top: 30px;
   position: fixed;
-    z-index: 1000;
+  z-index: 1000;
 }
 
 .logo {

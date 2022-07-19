@@ -11,4 +11,9 @@ use Illuminate\Database\Eloquent\Model;
 class Anime extends Model
 {
     use HasFactory;
+
+    public function genre(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo('App\Genre');
+    }
 }

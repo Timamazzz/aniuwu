@@ -31,24 +31,24 @@
 
             <div class="comment__container">
                 <div class="comment__header">
-                    <h1 class="comment__title">Комментарии</h1>
-                    <input class="comment__input" type="text" placeholder="Комментарий">
-                    <button class="comment__btn" type="submit">Отправить</button>
+                    <h1 class="comment__title">@lang('anime.comments')</h1>
+                    <input class="comment__input" type="text" placeholder=@lang('anime.comment')>
+                    <button class="comment__btn" type="submit">@lang('app.send')</button>
                 </div>
                 <div class="comment__item-container">
                     <div class="comment__item">
-                        <img class="comment__img" src="../../../img/1619261518_21-phonoteka_org-p-anime-kartinki-bez-fona-29.png">
+                        <img class="comment__img" src="{{asset('img/1619261518_21-phonoteka_org-p-anime-kartinki-bez-fona-29.png')}}">
                         <div class="comment__item-cont">
-                            <h1 class="comment__item-title">Пользователь</h1>
-                            <p class="comment__item-text">Комментарий</p>
+                            <h1 class="comment__item-title">@lang('app.user')</h1>
+                            <p class="comment__item-text">@lang('anime.comment')</p>
                         </div>
                     </div>
 
                     <div class="comment__item">
-                        <img class="comment__img" src="../../../img/1619261518_21-phonoteka_org-p-anime-kartinki-bez-fona-29.png">
+                        <img class="comment__img" src="{{asset('img/1619261518_21-phonoteka_org-p-anime-kartinki-bez-fona-29.png')}}">
                         <div class="comment__item-cont">
-                            <h1 class="comment__item-title">Пользователь</h1>
-                            <p class="comment__item-text">Комментарий</p>
+                            <h1 class="comment__item-title">@lang('app.user')</h1>
+                            <p class="comment__item-text">@lang('anime.comment')</p>
                         </div>
                     </div>
 

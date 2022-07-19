@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Anime;
+use App\Models\Genre;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -17,6 +18,7 @@ class HomeController extends BaseController
 
     public function index(): Factory|View|Application
     {
+        $animes = Genre::Find(1)->animes;
         return view('home.index', ['animes' => Anime::all()]);
     }
 
